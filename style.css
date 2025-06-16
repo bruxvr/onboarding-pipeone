@@ -1,4 +1,3 @@
-
 :root {
   /* Colors */
   --color-background: rgba(252, 252, 249, 1);
@@ -649,9 +648,9 @@ select.form-control {
 }
 
 @font-face {
-  font-family: 'FKGroteskNeue';
-  src: url('https://r2cdn.perplexity.ai/fonts/FKGroteskNeue.woff2')
-    format('woff2');
+  font-family: "FKGroteskNeue";
+  src: url("https://r2cdn.perplexity.ai/fonts/FKGroteskNeue.woff2")
+    format("woff2");
 }
 
 :root {
@@ -756,9 +755,9 @@ select.form-control {
   --container-xl: 1280px;
 
   /* App specific colors */
-  --sidebar-bg: #2C3E50;
-  --sidebar-text: #ECF0F1;
-  --sidebar-text-secondary: #BDC3C7;
+  --sidebar-bg: #2f18c0;
+  --sidebar-text: #ecf0f1;
+  --sidebar-text-secondary: #bdc3c7;
 }
 
 /* Dark mode colors */
@@ -1215,7 +1214,7 @@ select.form-control {
 }
 
 .toggle-slider::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 20px;
   height: 20px;
@@ -1375,22 +1374,22 @@ select.form-control {
 }
 
 .channel-icon.facebook {
-  background: #1877F2;
+  background: #1877f2;
   color: white;
 }
 
 .channel-icon.instagram {
-  background: linear-gradient(45deg, #F56040, #E1306C, #C13584, #833AB4);
+  background: linear-gradient(45deg, #f56040, #e1306c, #c13584, #833ab4);
   color: white;
 }
 
 .channel-icon.whatsapp {
-  background: #25D366;
+  background: #25d366;
   color: white;
 }
 
 .channel-icon.messenger {
-  background: #0084FF;
+  background: #0084ff;
   color: white;
 }
 
@@ -1505,64 +1504,64 @@ input:checked + .slider:before {
   .app-container {
     flex-direction: column;
   }
-  
+
   .sidebar {
     width: 100%;
     height: auto;
     flex-direction: row;
     overflow-x: auto;
   }
-  
+
   .steps-list {
     display: flex;
     flex-direction: row;
     padding: var(--space-8) var(--space-16);
   }
-  
+
   .step-item {
     flex-shrink: 0;
     padding: var(--space-8);
   }
-  
+
   .step-info {
     display: none;
   }
-  
+
   .progress-indicator {
     display: none;
   }
-  
+
   .main-content {
     padding: var(--space-16);
   }
-  
+
   .step-content {
     padding: var(--space-16);
   }
-  
+
   .team-actions-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .channel-integration-container {
     flex-direction: column;
     height: auto;
   }
-  
+
   .channel-sidebar {
     width: 100%;
     display: flex;
     align-items: center;
     gap: var(--space-16);
   }
-  
+
   .channel-menu {
     flex-direction: row;
   }
 }
 
 @font-face {
-  font-family: 'FKGroteskNeue';
-  src: url('https://r2cdn.perplexity.ai/fonts/FKGroteskNeue.woff2')
-    format('woff2');
+  font-family: "FKGroteskNeue";
+  src: url("https://r2cdn.perplexity.ai/fonts/FKGroteskNeue.woff2")
+    format("woff2");
 }

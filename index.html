@@ -243,7 +243,112 @@
                     <button class="btn btn--primary" id="continue-step3">Continuar</button>
                 </div>
             </div>
+            
+<!-- Step 3: Business Hours -->
+<div class="step-content" id="step-3">
+    <div class="step-header">
+        <h1>Business Hours</h1>
+    </div>
+    <div class="form-container">
+        <div class="business-hours-container">
+            <!-- Monday -->
+            <div class="day-schedule">
+                <div class="day-info">
+                    <span class="day-name">Mon</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" class="day-checkbox" data-day="monday" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="time-inputs">
+                    <input type="time" class="form-control time-input" value="08:00">
+                    <span class="time-separator">-</span>
+                    <input type="time" class="form-control time-input" value="17:00">
+                </div>
+            </div>
 
+            <!-- Tuesday -->
+            <div class="day-schedule">
+                <div class="day-info">
+                    <span class="day-name">Tues</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" class="day-checkbox" data-day="tuesday" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="time-inputs">
+                    <input type="time" class="form-control time-input" value="08:00">
+                    <span class="time-separator">-</span>
+                    <input type="time" class="form-control time-input" value="17:00">
+                </div>
+            </div>
+
+            <!-- Wednesday -->
+            <div class="day-schedule">
+                <div class="day-info">
+                    <span class="day-name">Wed</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" class="day-checkbox" data-day="wednesday" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="time-inputs">
+                    <input type="time" class="form-control time-input" value="08:00">
+                    <span class="time-separator">-</span>
+                    <input type="time" class="form-control time-input" value="17:00">
+                </div>
+            </div>
+
+            <!-- Thursday -->
+            <div class="day-schedule">
+                <div class="day-info">
+                    <span class="day-name">Thu</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" class="day-checkbox" data-day="thursday" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="time-inputs">
+                    <input type="time" class="form-control time-input" value="08:00">
+                    <span class="time-separator">-</span>
+                    <input type="time" class="form-control time-input" value="17:00">
+                </div>
+            </div>
+
+            <!-- Sunday -->
+            <div class="day-schedule">
+                <div class="day-info">
+                    <span class="day-name">Sun</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" class="day-checkbox" data-day="sunday">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="time-inputs">
+                    <input type="time" class="form-control time-input" value="08:00" disabled>
+                    <span class="time-separator">-</span>
+                    <input type="time" class="form-control time-input" value="17:00" disabled>
+                </div>
+            </div>
+        </div>
+
+        <!-- Auto message response section -->
+        <div class="auto-message-section">
+            <h3>Auto message response</h3>
+            <div class="form-group">
+                <label class="form-label" for="business-hours-msg">During business hours</label>
+                <textarea id="business-hours-msg" class="form-control" rows="3" placeholder=""></textarea>
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="after-hours-msg">After business hours</label>
+                <textarea id="after-hours-msg" class="form-control" rows="3" placeholder=""></textarea>
+            </div>
+        </div>
+    </div>
+    <div class="step-actions">
+        <button class="btn btn--primary" id="continue-step3">Continue</button>
+    </div>
+</div>
             <!-- Step 4: Create Team -->
             <div class="step-content" id="step-4">
                 <div class="step-header">
