@@ -5,7 +5,7 @@
   --color-text: rgba(19, 52, 59, 1);
   --color-text-secondary: rgba(98, 108, 113, 1);
   :root {
-    /* Typography - AUMENTE ESTES VALORES */
+    /* Typography - */
     --font-size-xs: 13px; /* era 11px */
     --font-size-sm: 14px; /* era 12px */
     --font-size-base: 16px; /* era 14px */
@@ -250,7 +250,7 @@ p {
   width: 100%;
   padding: var(--space-6) var(--space-10);
   font-size: var(--font-size-xl);
-  line-height: 1.5;
+  line-height: 3;
   color: var(--color-text);
   background-color: var(--color-surface);
   border: 1px solid var(--color-border);
@@ -259,8 +259,8 @@ p {
 }
 
 .form-control-compact {
-  padding: var(--space-4) var(--space-8); /* REDUZA ESTES VALORES */
-  font-size: var(--font-size-sm);
+  padding: var(--space-4) var(--space-8);
+  font-size: var(--font-size-lg);
 }
 
 .form-control:focus {
@@ -522,7 +522,7 @@ p {
 }
 
 .day-name {
-  font-weight: var(--font-weight-medium);
+  font-weight: var(--font-weight-lg);
   min-width: 60px;
 }
 
